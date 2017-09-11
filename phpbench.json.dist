@@ -1,0 +1,20 @@
+{
+  "bootstrap": "vendor/autoload.php",
+  "path": "./benchmarks",
+  "progress": "dots",
+  "outputs": {
+    "benchmark": {
+      "extends": "markdown",
+      "file": "benchmark.md",
+      "title": "Xml-split"
+    }
+  },
+  "reports": {
+    "my_report": {
+      "extends": "aggregate"
+    }
+  },
+  "extensions": [
+    "PhpBench\\Extensions\\XDebug\\XDebugExtension"
+  ]
+}

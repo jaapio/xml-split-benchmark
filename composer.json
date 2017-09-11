@@ -1,0 +1,19 @@
+{
+    "name": "jaapio/xml-split",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jaapio",
+            "email": "jaap@ijaap.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jaapio\\" : "src"
+        }
+    },
+    "require": {
+        "prewk/xml-string-streamer": "^0.8.0"
+    }
+}
